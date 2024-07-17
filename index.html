@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>simple calculator</h1>
+        <form>
+            <input id="number1" class="number1" type="number" placeholder="Digite seu numero:">
+            <div id="contain2">
+                <input class="semen" type="radio" name="sign-area" id="radius1"><span id="inputado">+</span>
+                <input class="semen" type="radio" name="sign-area" id="radius2"><span id="inputado">-</span>
+                <input class="semen" type="radio" name="sign-area" id="radius3"><span id="inputado">*</span>
+                <input class="semen" type="radio" name="sign-area" id="radius4"><span id="inputado">/</span>
+            </div>
+            <input id="number2" class="number2" type="number" placeholder="Digite seu numero:">
+            <div id="contain3">
+                <button onclick="outcame()" class="calculate" id="button">CALCULATE</button>
+                <h1 id="resultado"></h1>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
